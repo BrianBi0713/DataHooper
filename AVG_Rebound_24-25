@@ -1,0 +1,8 @@
+SELECT
+    Team,
+    AVG(ORB) AS Avg_Offensive_Rebounds,
+    AVG(DRB) AS Avg_Defensive_Rebounds,
+    AVG(TRB) AS Avg_Total_Rebounds 
+FROM `NBA_24-25_Stats`.per_100_poss
+GROUP BY Team
+ORDER BY Avg_Total_Rebounds DESC;

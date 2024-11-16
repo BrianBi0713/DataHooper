@@ -1,0 +1,10 @@
+SELECT 
+    Team,
+    AVG(`3P%`) AS Avg_3P_Percentage,
+    AVG(`FG%`) AS Avg_FG_Percentage,
+    AVG(PTS) AS Avg_Points
+FROM `NBA_24-25_Stats`.per_game_stats
+GROUP BY 
+    Team
+ORDER BY 
+    Avg_Points DESC;

@@ -1,0 +1,15 @@
+SELECT 
+    '2023-2024' AS Season,
+    `FG%` AS Team_FG_Percentage,
+	`3P%` AS Team_3P_Percentage,
+    `FT%` AS Team_FT_Percentage
+FROM `NBA_24-25_Stats`.`cavs_team_opponent_23-24`
+WHERE MyUnknownColumn = 'team'
+UNION ALL
+SELECT 
+ '2024-2025' AS Season,
+ `FG%` AS Team_FG_Percentage,
+ `3P%` AS Team_3P_Percentage,
+ `FT%` AS Team_FT_Percentage
+ FROM `NBA_24-25_Stats`.`cav_team_opponent_24-25`
+ WHERE MyUnknownColumn = 'team';

@@ -4,7 +4,7 @@ Welcome to the **NBA Data Insights** repository! Here, I share in-depth analyses
 
 ## Project Overview
 
-This repository features SQL queries and analyses covering a wide range of NBA statistics. The main focus is on year-over-year comparisons to uncover insights into changes in team performance, player efficiency, shooting trends, and other key metrics from season to season. Here is the database I use for most of the analysis: https://www.basketball-reference.com/
+This repository features SQL queries and analyses covering a wide range of NBA statistics. The main focus is on year-over-year comparisons to uncover insights into changes in team performance, player efficiency, shooting trends, and other key metrics from season to season. Here is my DataHooper account: https://x.com/BBrianbi13
 
 ## Key Insights and Features
 

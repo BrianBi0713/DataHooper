@@ -1,0 +1,5 @@
+SELECT pg.`eFG%`, adv.WS, pg.Player
+FROM `NBA_24-25_Stats`.`2024-25_per_game_stats`pg
+LEFT JOIN `NBA_24-25_Stats`.`2024-25_advance_stats`adv
+ON pg.Player = adv.Player
+LIMIT 50;
